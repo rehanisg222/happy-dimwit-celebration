@@ -81,19 +81,12 @@ const SongSection = ({
         <h2 className="text-3xl md:text-5xl font-playfair font-bold text-white mb-8">98 Percent</h2>
 
         {/* Album Art */}
-        <div className="w-80 h-80 mx-auto mb-8 rounded-2xl bg-gradient-to-br from-pink-girly/20 to-purple-girly/20 border border-white/10 flex items-center justify-center">
-          <div className="text-center">
-            <Music className="w-20 h-20 text-pink-girly mx-auto mb-4" />
-            <p className="text-gray-300 font-inter">Album Artwork</p>
-          </div>
-        </div>
+        
 
         {/* Song Info */}
         <div className="mb-8">
-          <h3 className="text-2xl font-playfair font-bold text-white mb-2">
-            Song Title
-          </h3>
-          <p className="text-gray-300 font-inter">Artist Name</p>
+          
+          <p className="text-gray-300 font-inter">Written By Nehar, Sang By Ai (meri awaz gandi h)</p>
         </div>
 
         {/* Audio Player */}
