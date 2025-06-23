@@ -1,6 +1,5 @@
-
 import React, { useState, useRef, useEffect } from 'react';
-import { ArrowLeft, Play, Pause, Volume2, VolumeX } from 'lucide-react';
+import { ArrowLeft, Play, Pause, Volume2, VolumeX, Music } from 'lucide-react';
 
 interface SongSectionProps {
   onBack: () => void;
