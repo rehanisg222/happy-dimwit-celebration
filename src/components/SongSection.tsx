@@ -91,7 +91,7 @@ const SongSection = ({
 
         {/* Audio Player */}
         <div className="bg-gradient-to-br from-white/5 to-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/10">
-          <audio ref={audioRef} src="" // Placeholder - user will add their audio file
+          <audio ref={audioRef} src="https://drive.google.com/file/d/1-fTR81EInmZr2Wv5I9sOlHEk-pIKxW8u/view?usp=sharing" // Placeholder - user will add their audio file
         preload="metadata" />
 
           {/* Progress Bar */}
