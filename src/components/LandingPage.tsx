@@ -25,7 +25,10 @@ const LandingPage = ({ onContinue }: LandingPageProps) => {
       
       <div className="relative z-10 text-center">
         <h1 className="text-5xl md:text-7xl font-playfair font-bold text-white mb-8">
-          <span className="typewriter inline-block">Happy Birthday Dimwit</span>
+          <span className="typewriter inline-block">
+            <span className="block md:inline">Happy Birthday</span>
+            <span className="block md:inline md:ml-4">Dimwit</span>
+          </span>
         </h1>
         
         {showContinue && (

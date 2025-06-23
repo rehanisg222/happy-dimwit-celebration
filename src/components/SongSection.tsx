@@ -117,7 +117,7 @@ const SongSection = ({
         <div className="bg-gradient-to-br from-white/5 to-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/10">
           <audio 
             ref={audioRef} 
-            src="https://www.dropbox.com/scl/fi/kmnvwxxgooe1csq61wp7y/98-percent.mp3?rlkey=q9cqzk01zm6c11nhe7x8cqmhn&st=abblkm4c&dl=1"
+            src="/98 percent.mp3"
             preload="metadata"
           />
 
